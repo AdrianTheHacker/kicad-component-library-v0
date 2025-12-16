@@ -1,0 +1,171 @@
+(footprint "SMD_CAPACITOR_CERAMIC_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0603-1")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b3270163-e305-40f2-a90d-9330c2223420")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X90N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "723b942b-9cf2-40fe-8738-79b4485659f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc060dc7-4308-4160-ad9a-365f82cec55e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1054a60f-6827-4bbc-aa69-54d1d5838bd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.24 -0.65)
+		(end 1.24 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d24243e9-3969-47eb-afac-8c49bb4661c0")
+	)
+	(fp_line
+		(start -1.24 0.65)
+		(end -1.24 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f014144c-a8dd-4e1e-beb9-e2ebfa956b3b")
+	)
+	(fp_line
+		(start 1.24 -0.65)
+		(end 1.24 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7916017a-8624-4d52-b041-67e647564e67")
+	)
+	(fp_line
+		(start 1.24 0.65)
+		(end -1.24 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "710a7b22-272f-4885-8168-f0f7995a586f")
+	)
+	(fp_line
+		(start -0.8 -0.405)
+		(end 0.8 -0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39eb263e-0a8c-4aa1-90ce-089f057c9f51")
+	)
+	(fp_line
+		(start -0.8 0.405)
+		(end -0.8 -0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "555254fe-4240-4adc-abd1-9b1701dba56d")
+	)
+	(fp_line
+		(start 0.8 -0.405)
+		(end 0.8 0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebcf484b-b214-4ed2-8032-97877306d095")
+	)
+	(fp_line
+		(start 0.8 0.405)
+		(end -0.8 0.405)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d23167f2-180f-4f05-9f10-6bb9f21b5f13")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e7d09d23-269c-4f34-a14f-a397d5b039a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 0.78 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91c1979f-0190-442c-a333-6feaa2183746")
+	)
+	(pad "2" smd rect
+		(at 0.7 0)
+		(size 0.78 0.99)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a618047-f426-483f-93a1-3e5b162e4955")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/AdrianTheHackers_Favourites/adrians_favs.3Dmodels/SMD_CAPACITOR_CERAMIC_0603.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,273 @@
+(footprint "SMD_BATTERY_SINGLE_CELL_CR2032"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMTU2032-G.TR-4")
+	(tags "Hardware")
+	(property "Reference" "H**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d8e14af4-b42c-4370-8a85-7e6a17225c80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SMTU2032GTR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ddc01e5c-8ca0-493d-94b1-1aef211d2665")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67fe2b6f-cf29-4115-ba3c-16e7f76aff2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a91f6120-19bb-4317-9151-ef1255e7f7d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -16.6 0)
+		(end -16.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b8735b8-a47d-45d6-89a3-868b21dc2c9f")
+	)
+	(fp_line
+		(start -16.5 0)
+		(end -16.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33c0840c-43c9-4b0e-8fcc-5654943e63e1")
+	)
+	(fp_line
+		(start -16 -10)
+		(end 16 -10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df5d18fb-59ba-4a8e-b4d2-34729f9a805d")
+	)
+	(fp_line
+		(start -16 -2.54)
+		(end -16 -10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "963fb142-930b-4af9-9c68-d288fc346298")
+	)
+	(fp_line
+		(start -16 10)
+		(end -16 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f2d3082-a6ab-4926-98f3-3112e77649a2")
+	)
+	(fp_line
+		(start 16 -10)
+		(end 16 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6dfab55-34be-41e4-a714-1ef157ae5a6c")
+	)
+	(fp_line
+		(start 16 2.54)
+		(end 16 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c2a1181-9770-4240-8355-82f14c48216a")
+	)
+	(fp_line
+		(start 16 10)
+		(end -16 10)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce80446e-50a5-456d-9c1a-f8904abb53a4")
+	)
+	(fp_arc
+		(start -16.6 0)
+		(mid -16.55 -0.05)
+		(end -16.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87550589-c910-43d0-b8ae-02ed67f30538")
+	)
+	(fp_arc
+		(start -16.5 0)
+		(mid -16.55 0.05)
+		(end -16.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0246162e-0282-4ef1-8de3-719b74a27644")
+	)
+	(fp_line
+		(start -17 -11)
+		(end 17 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92276b66-43f9-4d47-a552-99363a081b57")
+	)
+	(fp_line
+		(start -17 11)
+		(end -17 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2841a6e7-1f6d-454e-9d8c-4b804519f22d")
+	)
+	(fp_line
+		(start 17 -11)
+		(end 17 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "234b1be8-a196-45e3-8dca-adb8ed1ba7c1")
+	)
+	(fp_line
+		(start 17 11)
+		(end -17 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9538a20-23bb-41ee-a27f-ad1c5050bf28")
+	)
+	(fp_line
+		(start -16 -10)
+		(end -16 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30b7a4b0-f5cf-4a97-a594-49f36dd8396b")
+	)
+	(fp_line
+		(start -16 10)
+		(end 16 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1a62dd8-15bf-4799-a5a8-ecb16b434a43")
+	)
+	(fp_line
+		(start 16 -10)
+		(end -16 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef30266c-d9d9-47cf-a5d2-ce61243f66a6")
+	)
+	(fp_line
+		(start 16 10)
+		(end 16 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bc61ae4-7978-43af-a8f2-786c5a0c3bae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2cbca3e7-ab74-4536-8d7c-8c8a20845b42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -14.7 0)
+		(size 2.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "283fc962-a745-4bd7-bba4-6eaf5759ea8e")
+	)
+	(pad "2" smd rect
+		(at 14.7 0)
+		(size 2.6 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45ff1a7e-81fc-4cbe-8e80-c0f73f3ddb5d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/AdrianTheHackers_Favourites/adrians_favs.3Dmodels/SMD_BATTERY_SINGLE_CELL_CR2032.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
