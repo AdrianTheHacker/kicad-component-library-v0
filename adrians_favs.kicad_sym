@@ -342,7 +342,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "BT"
-			(at 2.54 2.54 0)
+			(at -1.27 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -350,8 +350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMD_BATTERY_SINGLE_CELL_CR2032"
-			(at 2.54 0 0)
+		(property "Value" "3V0"
+			(at 1.27 2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,7 +359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adrians_favs:SMD_BATTERY_SINGLE_CELL_CR2032"
 			(at 0 1.524 90)
 			(effects
 				(font
@@ -368,8 +368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 1.524 90)
+		(property "Datasheet" "https://www.renata.com/en/"
+			(at -0.254 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +377,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Signle cell battery case for a CR2032 coincell battery."
+			(at 1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Store" "https://mou.sr/4rY7KUn"
 			(at 0 0 0)
 			(effects
 				(font
@@ -396,55 +405,9 @@
 			)
 		)
 		(symbol "SMD_BATTERY_SINGLE_CELL_CR2032_0_1"
-			(rectangle
-				(start -2.286 1.778)
-				(end 2.286 1.524)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -1.524 1.016)
-				(end 1.524 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
-					(xy 0 1.778) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.762) (xy 0 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 3.048) (xy 1.778 3.048)
+					(xy -2.286 1.27) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -456,10 +419,56 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 3.556) (xy 1.27 2.54)
+					(xy -1.778 0.762) (xy -1.778 1.778)
 				)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.508 -2.286)
+				(end -0.254 2.286)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.254 -1.524)
+				(end 0.762 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -469,7 +478,7 @@
 		)
 		(symbol "SMD_BATTERY_SINGLE_CELL_CR2032_1_1"
 			(pin passive line
-				(at 0 5.08 270)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -487,7 +496,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -3302,7 +3311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "QFP50P900X900X160-48N"
+		(property "Footprint" "adrians_favs:SMD_STM32G474CBT6TR"
 			(at 19.05 -66.98 0)
 			(effects
 				(font
@@ -5161,7 +5170,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5179,7 +5188,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5197,7 +5206,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5215,7 +5224,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5233,7 +5242,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5251,7 +5260,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5269,7 +5278,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5287,7 +5296,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5305,7 +5314,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5323,7 +5332,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5341,7 +5350,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5359,7 +5368,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
