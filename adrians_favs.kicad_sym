@@ -1952,7 +1952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2111,7 +2111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheetz.com/data/Inductors,%20Coils,%20Chokes/Fixed/587-1716-6-datasheetz.html"
 			(at 0 0 90)
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://look.ams-osram.com/m/4cbb1524123e38e9/original/KT-EELP41-12.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5092,8 +5092,8 @@
 	)
 	(symbol "THT_WIFI_MODULE"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(property "Reference" "IC"
 			(at -13.97 -6.35 0)
 			(effects
